@@ -9,7 +9,7 @@ OPENAI_API_KEY="sk-xxxxxx"
 Edit app.py to add the JSON file path and the Chroma Vector DB directory:
 
 file_path = "myfile.json"
-persist_directory = "chromadb/mydbname"
+persist_directory = "./chromadb/mydbname"
 
 Run these two commands:
 
