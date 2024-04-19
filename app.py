@@ -26,6 +26,6 @@ langchain_chroma = Chroma(
     embedding_function=embeddings,
 )
 
-
+db = langchain_chroma.from_documents(documents, embeddings, persist_directory="./chromadb/bmae-json")
 
 #db = Chroma.from_documents(documents, embeddings, persist_directory="./chromadb/bmae-json")
