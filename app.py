@@ -9,8 +9,7 @@ load_dotenv()
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
-file_path = "balat-ds1c-wcc-cheerio-ex_2024-04-06_09-05-15-262.json"
-collection_name = "bmae-json"
+file_path = "commons-ds1-wps-202404052059.json"
 
 loader = JSONLoader(file_path=file_path, jq_schema=".[]", text_content=False)
 documents = loader.load()
