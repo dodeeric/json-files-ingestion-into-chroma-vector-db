@@ -3,8 +3,8 @@ import jq
 from dotenv import load_dotenv
 from langchain_community.document_loaders import JSONLoader
 from langchain_openai import OpenAIEmbeddings
-import chromadb
 from langchain_chroma import Chroma
+import chromadb
 
 load_dotenv()
 
